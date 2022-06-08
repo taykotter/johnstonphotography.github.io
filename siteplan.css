@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 2.0em;
+    grid-column: 2/3;
+    align-self: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+header {
+    background-color: #040451; 
+    color: white;
+}
