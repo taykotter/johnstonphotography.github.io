@@ -3,23 +3,37 @@
     <head>
         <title> Johnston Photography</title>
         <link rel="stylesheet" href="large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto+Mono&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-        <h1>Johnston Photography</h1>
-        <ul id="navigation" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="meetjeri.html">Meet Jeri</a></li>
-        </ul>
-    </header>
+            <h1>Johnston Photography</h1>
+            <!--  <button onclick="toggleMenu()">&#9776;</button> -->
+            <nav>
+                <ul id="nav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="meetjeri.html">Meet Jeri</a></li>
+                </ul>
+            </nav>
+        </header>
     <main>
-        <img id ="family"src="https://drive.google.com/uc?id=1onwiE-MYllfghuQ3r2GirW2MUhf5ep1G" alt="Family Photo"><h3>Family</h3>
-        <img id= "engagement" src="https://drive.google.com/uc?id=1-Bju06awPsl-4qfEyqDFlpFFOAxf3Xts" alt ="Engagement Photo"><h3>Enagement</h3>
-        <img id="wedding" src = "https://drive.google.com/uc?id=16DYKPgcNfwEjnOAKWT8H1ZoTyLQMHT7d" alt = "Wedding Photo"><h3>Wedding</h3>
-        <img id="baby" src = "https://drive.google.com/uc?id=19ZNiNtorcdxHBzqdXfrvhfkUDoew-JnS" alt = "Baby Photo"><h3>Baby</h3>
-        <img id="graduating" src = "https://drive.google.com/uc?id=1futd6RrmxE1yACJpdAf0Q9YWVelEw1hQ" alt = "Graduation Photo"><h3>Graduating</h3>
+        <div class="categories">
+        <img class = "griditem" id ="family"src="https://drive.google.com/uc?id=1onwiE-MYllfghuQ3r2GirW2MUhf5ep1G" alt="Family Photo">
+        <h3 class = "griditem">Family</h3>
+        <h3 class = "griditem">Enagement</h3>
+        <img class = "griditem" id= "engagement" src="https://drive.google.com/uc?id=1-Bju06awPsl-4qfEyqDFlpFFOAxf3Xts" alt ="Engagement Photo">
+        <img class = "griditem" id="wedding" src = "https://drive.google.com/uc?id=16DYKPgcNfwEjnOAKWT8H1ZoTyLQMHT7d" alt = "Wedding Photo">
+        <h3 class = "griditem">Wedding</h3>
+        <h3 class = "griditem">Baby</h3>
+        <img class = "griditem" id="baby" src = "https://drive.google.com/uc?id=19ZNiNtorcdxHBzqdXfrvhfkUDoew-JnS" alt = "Baby Photo">
+        <img class = "griditem" id="graduating" src = "https://drive.google.com/uc?id=1futd6RrmxE1yACJpdAf0Q9YWVelEw1hQ" alt = "Graduation Photo">
+        <h3 class = "griditem">Graduation</h3>
+    </div>
     </main>
     <footer>
         <span class="contactInfo">

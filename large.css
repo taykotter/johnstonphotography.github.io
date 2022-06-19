@@ -1,3 +1,95 @@
 img {
     max-width: 350px;
 }
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 0.75em;
+
+}
+header, footer {
+    background-color: #B8B8B7;
+    color: #0b0b45;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 3.0em;
+    grid-column: 2/3;
+    align-self: center;
+}
+main {
+    padding: 50px;
+}
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  } 
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li a {
+    color: #0b0b45;
+    text-decoration: none;
+}
+
+
+.categories {
+    display:grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+
+.griditem {
+  font-size: 2em;
+  text-align: center;
+  
+}
+.meetJeri {
+    display:grid;
+    grid-template-columns: 25% 25%;
+    place-items: center;
+    justify-content: center;
+   
+
+}
+.gridJeri {
+  padding: 20px;
+  font-size: 1.25em;
+  text-align: center;
+  
+}
+
+.pricing {
+    display:grid;
+    grid-template-columns: 25% 25%;
+    place-items: center;
+    justify-content: center; 
+}
+
+.gridprice1 {
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gridprice {
+    grid-column: 2;
+}
+
+#cutebaby {
+    height: 500px;
+}
+
