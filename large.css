@@ -23,6 +23,7 @@ h1 {
     font-size: 3.0em;
     grid-column: 2/3;
     align-self: center;
+    padding: 10px;
 }
 main {
     padding: 50px;
@@ -87,9 +88,12 @@ nav ul li a {
 
 .gridprice {
     grid-column: 2;
+    text-align: left;
 }
 
 #cutebaby {
     height: 500px;
 }
+
+
 
