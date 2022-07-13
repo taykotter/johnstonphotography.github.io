@@ -24,23 +24,23 @@
     <main>
         
 <div class="container">
-    <form action="https://formspree.io/tksgameplayer@gmail.com">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="email" id="email" name="emailaddress" placeholder="janedoe@gmail.com">
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Question or Comment..."" style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-    </form>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqnbjvk" method="post">
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <label for= "phone-number">Phone Number (Format: 208-987-6543)</label>
+          <input type="tel" name="phone" id="phone-number" placeholder="208-987-6543" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Questions? Comments? Please send it on to Johnston Photography and she'll contact you soon! If you prefer a phone call or text, please include your phone number in your message." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
   </div>
     </main>
+    
     <footer>
         <span class="contactInfo">
             jjalsj@gmail.com 208-528-2969
