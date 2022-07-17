@@ -1,0 +1,14 @@
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .familiescontainer {
+        column-count: 2;
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .engagementcontainer{
+        column-count: 2;
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}

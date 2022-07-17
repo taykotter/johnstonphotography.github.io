@@ -1,0 +1,15 @@
+@media only screen and (max-width: 425px) {
+    .familiescontainer {
+        column-count: 1;
+        max-width: 425px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    /* ENAGEMENT HTML CSS */
+.engagementcontainer{
+    column-count: 1;
+        max-width: 425px;
+        margin: 0 auto;
+        padding: 30px;
+}
+}
